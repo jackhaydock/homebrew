@@ -1,0 +1,540 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TSoC",
+				"abbreviation": "TSoC",
+				"color": "ff9900",
+				"full": "The Sea of Cyranos",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"background": [
+		{
+			"name": "Amazon",
+			"source": "TSoC",
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Athletics}, {@skill Intimidation}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of {@item gaming set}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A ceremonial circlet or diadem (A mark of your ascension to Amazon), a set of {@item common clothes}, and a belt pouch containing 15gp "
+						}
+					]
+				},
+				{
+					"name": "Restriction: Female Only",
+					"type": "entries",
+					"entries": [
+						"Only women can become Amazons, men are exiled or slaughtered once they have fulfilled their purpose."
+					]
+				},
+				{
+					"name": "Feature: Amazon Pride",
+					"type": "entries",
+					"entries": [
+						"Amazons are well revered warriors. Whether you are loved or feared, you find that people are often willing to be more lenient with prices and services.",
+            "Provided you are still welcome with the Amazons, you can expect free lodging and food for you and your companions within Amazon camps, so long as the men don't stay too long."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Reason For Leaving",
+					"type": "entries",
+					"entries": [
+						"You have been separated from your tribe for some reason. You can roll on the table to determine why, or chose one that best fits your character.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Reason"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I was sent on a special mission by my queen, one only I could complete."
+								],
+								[
+									"2",
+									"I was captured and later escaped, I am trying to find my tribe again."
+								],
+								[
+									"3",
+									"I was shunned and exiled for refusing to kill/leave my mate/son."
+								],
+								[
+									"4",
+									"The tribe brings back painful memories, I had to leave."
+								],
+								[
+									"5",
+									"I am searching for artefacts and allies to help my tribe."
+								],
+								[
+									"6",
+									"I disagreed with the tribe and decided to go my own way."
+								],
+								[
+									"7",
+									"I am the only surviving member of my tribe, I am searching for other Amazon tribes."
+								],
+								[
+									"8",
+									"I simply wanted to explore the world."
+								]
+							]
+						}
+					]
+					},
+					{
+						"name": "Suggested Characteristics",
+						"type": "entries",
+						"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I speak down to all men as if they are animals."
+								],
+								[
+									"2",
+									"I only know war and wilderness, social etiquette and commerce are alien to me."
+								],
+								[
+									"3",
+									"I am constantly looking for a fight to prove myself to strangers."
+								],
+								[
+									"4",
+									"The sight of people living ordinary lives amuses me for some reason."
+								],
+								[
+									"5",
+									"I am always ready for battle, I don't have time for bathing or looking nice."
+								],
+								[
+									"6",
+									"I don't like subterfuge, I will not lie and hate when others lie."
+								],
+								[
+									"7",
+									"The simplest, most direct method is usually the best."
+								],
+								[
+									"8",
+									"I like to scare companions with stories from my life with the tribe."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I only value strength, I care not for morals or wisdom. (Evil)"
+								],
+								[
+									"2",
+									"I must follow the customs and laws of my tribe, even if I don't like it. (Lawful)"
+								],
+								[
+									"3",
+									"I must use what strength I have to serve the greater good. (Good)"
+								],
+								[
+									"4",
+									"I refuse to follow orders I disapprove of. (Chaotic)"
+								],
+								[
+									"5",
+									"An honourable enemy can always become a good friend. (Neutral)"
+								],
+								[
+									"6",
+									"Ambition, I will be more than just another woman, I will be legendary. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I serve my queen, I have no other loyalties."
+								],
+								[
+									"2",
+									"I will serve Ares to my dying breath."
+								],
+								[
+									"3",
+									"My honour is my life."
+								],
+								[
+									"4",
+									"No man shall ever rule me."
+								],
+								[
+									"5",
+									"My tribe is wrong about men, I shall never shun/execute an innocent man."
+								],
+								[
+									"6",
+									"I fight for those who cannot fight for themselves."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I have little respect for anyone who is not a proven warrior."
+								],
+								[
+									"2",
+									"To surrender in battle is the greatest shame I can feel."
+								],
+								[
+									"3",
+									"I made a terrible mistake in battle that cost many lives-and I would do anything to keep that mistake secret."
+								],
+								[
+									"4",
+									"My hatred of my enemies is blinding and unreasoning"
+								],
+								[
+									"5",
+									"I obey my queen, even when I disagree with the order."
+								],
+								[
+									"6",
+									"I refuse to follow the laws of the lands beyond my tribe, this constantly gets me in trouble."
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Daedalian Tinkerer",
+			"source": "TSoC",
+			"prerequisite": [
+				{
+					"other": "{@class Artificer} level 2 or higher"
+				}
+			],
+			"entries": [
+				"You are a talented craftsman, able to create contraptions beyond common understanding, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your maximum number of Artificer Infusions increases by 1."
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Hourglass of Kronos",
+			"source": "TSoC",
+			"wondrous": true,
+			"rarity": "Rare",
+			"entries": [
+				"This finely crafted hourglass holds one minute of sand and bears an engraving of a scythe on one side. As a reaction, it can be turned scythe side up to freeze a single non-magical object or creature, that you can see, in time. When the sand runs out, or the glass is turned scythe side down, the target unfreezes and continues as normal, until then the target is completely motionless and unaffected by any external forces or effects.",
+        "If the target is an object it can't be more than 10ft in any dimension. If it is moving quickly the DM may decide to have the user make a Dexterity check to affect the object.",
+        "If the target is, or is carried by, an unwilling creature, the user must make a DC10 Dexterity save to resist the effects. The creature is unaware of any attempt to freeze it, successful or not. Once a creature has been frozen, they have advantage on any further saves to avoid the effects of the ourglass.",
+        "When the hourglass is turned scythe down, all the sand must return to the scythe side of the glass before it can be used again. For example, if the hourglass is turned scythe side up to freeze an object for 30 seconds it must then be turned scythe down for 30 seconds before it can be used again."
+			]
+		},
+		{
+			"name": "Water Mage's Trident",
+			"source": "TSoC",
+			"baseItem": "Trident|PHB",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "Uncommon",
+			"reqAttune": true,
+			"weight": 4,
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"This trident can be used as an {@item arcane focus}.",
+						"While attuned to this trident, you know the spell {@spell create or destroy water} and, as an action, you can expend a spell slot of 1st lever or higher to cast it."
+					]
+				}
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Fenri (Laelaps)",
+			"source": "TSoC",
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Fenri (Laelaps) typically mature around 8 years of age. Fenri (Laelaps) rarely live beyond 50 years of age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Fenri (Laelaps) tend to be loyal, good boys and girls, tending towards neutral good alignments. However some rebellious and malicious Fenri do exist."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Fenri (Laelaps) typically stand between 4 and 6 feet tall and weigh between 150 and 200 lbs. Your size is medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canine Nose",
+					"entries": [
+						"You have advantage on Wisdom (Perception) checks that rely on hearing or smell"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Furry Fiend",
+					"entries": [
+						"You have advantage on Intimidation checks against Tabaxi."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite of Laelaps",
+					"entries": [
+						"When a creature you have grappled attempts to break free, you can use your reaction to sink your teeth into them and gain advantage on the contested roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "All Fours.",
+					"entries": [
+						"You can take the dash action as bonus action, when you do so, you run on all fours."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Zeus's loyal companion, Laelaps could catch anything she hunted. However when she tried to hunt the Teumessian fox, who could never be caught, the pair entered an endless chase as it was paradox. Eventually Zeus stepped in, turned both into stone and laid them to rest in the stars.",
+					"Now Laelaps looks over her children who, after some meddling with mischievous gods, had gained the many gifts of humanoid form; opposable thumbs, the power of speech and the ability to walk on two legs.",
+					"Fenri descended from Laelaps come in many breeds and colours."
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": true
+				}
+			]
+		},
+		{
+			"name": "Fenri (Anubis)",
+			"source": "TSoC",
+			"ability": [
+				{
+					"str": 2,
+					"cha": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Fenri (Anubis) typically mature around 8 years of age. Fenri (Laelaps) rarely live beyond 50 years of age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Fenri (Anubis) tend to strictly adhere to the laws of nature and gods, tending towards lawful neutral alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Fenri (Anubis) typically stand between 6 and 7 feet tall and weigh between 200 and 240 lbs. Your size is medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision ",
+					"entries": [
+						"Your connection to the Duat grants you sight in darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canine Nose",
+					"entries": [
+						"You have advantage on Wisdom (Perception) checks that rely on hearing or smell"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Furry Fiend",
+					"entries": [
+						"You have advantage on Intimidation checks against Tabaxi."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Scales",
+					"entries": [
+						"If you are reduced to 0 hitpoints, you can use your reaction to roll a deathsave.<br> On a save, you can expend one hitdie to regain hitpoints and stay conscious.<br> On a fail, you immediately fail one deathsave.<br> You can use this trait once per long rest."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"In a foreign land bordering Cyranos, a jackal headed god named Anubis is worshipped as he who prepares souls for the afterlife. Like many other gods, Anubis has mortal descendants.<br> Fenri descended from Anubis typically have short hair, dark fur and long thin snouts."
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": true
+				}
+			]
+		}
+	]
+}
